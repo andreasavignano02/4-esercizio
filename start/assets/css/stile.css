@@ -1,5 +1,5 @@
 /* IMPOSTAZIONI GENERALI */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap');
 
 body{
     background-image: url(./sfondo.png);
@@ -17,7 +17,7 @@ header{
     border: 1px solid;
     box-shadow:  3px 3px 3px 5px #888888;
 }
-li{
+#prima_lista{
     color: transparent;
     display: inline-block;
 }
@@ -26,14 +26,129 @@ a{
 }
 
 /* MAIN */
-
+main{
+    padding: 20px;
+    margin: 20px;
+    font-family: bold ;
+    line-height: 1.6;
+    background-color: white;
+    box-shadow: inset;
+    border: 2px solid black;
+}
 
 /* ELEMENTI NEL MAIN - ARTICLE */
+h1{
+    padding: 20px;
+    font-size: 200%;
+}
+
+.titolo_articolo {
+    color: gray ;
+    padding: 10px;
+}
+
+strong{
+    color: darkmagenta;
+}
+
+.seconda_lista{
+    margin: 20px;
+    font-size: 130%;
+}
+
+code{
+    background-color: lightgray;
+    border-radius: 3px;
+}
+
+.terza_lista{
+    margin: 30px;
+}
+
 
 /* TABELLE */
+table{
+    border-bottom: 2px solid blue;
+    margin: 20px;
+}
+
+caption{
+    font-family: italic bold;
+}
+th{
+    width: 10em;
+    color: white;
+    background-color: blue;
+    border: 1px solid #888888;
+}
+
+.tabelle_differenti{
+    background-color: lightgray;
+}
+
+.link_esterno{
+    color: pink;
+}
+
+#video_youtube{
+    border-radius: 5px;
+}
 
 /* FORM */
 
+section{
+    background-color: lightgray;
+    margin: 20px;
+    padding: 10px;
+}
+
+h2{
+    text-align: center;
+    font-size: 130%;
+    font-family: bold;
+}
+
+.primo_input{
+    border-bottom: 1px dashed black;
+}
+
+button{
+    background-color: lightskyblue;
+}
+
 /* ELEMENTI NELL' ASIDE */
+.contenitori_aside{
+    background-color: lightgray;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 15px;
+
+}
+
+.titlo_aside{
+    color: pink;
+}
+
+.date{
+    text-align: end;
+    margin: 5px;
+}
 
 /* FOOTER */
+
+footer{
+    margin: 20px;
+    background: rgb(0,0,0);
+    background: linear-gradient(183deg, rgba(0,0,0,0.5508404045211834) 36%, rgba(255,0,106,0.7497199563419117) 100%);  
+    color: white;
+    padding: 10px;
+}
+
+.titolo_footer{
+    text-align: center;
+    margin: 15px;
+}
+
+.link_footer{
+    color: magenta;
+}
